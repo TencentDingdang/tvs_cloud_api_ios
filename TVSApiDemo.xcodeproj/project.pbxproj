@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A86ECEB2390AEFA0083970A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ECEA2390AEFA0083970A /* AppDelegate.m */; };
+		8A86ECF12390AEFA0083970A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ECF02390AEFA0083970A /* ViewController.m */; };
+		8A86ECF42390AEFA0083970A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A86ECF22390AEFA0083970A /* Main.storyboard */; };
+		8A86ECF62390AEFB0083970A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A86ECF52390AEFB0083970A /* Assets.xcassets */; };
+		8A86ECF92390AEFB0083970A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A86ECF72390AEFB0083970A /* LaunchScreen.storyboard */; };
+		8A86ECFC2390AEFB0083970A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ECFB2390AEFB0083970A /* main.m */; };
+		8A86ED052390B28B0083970A /* HttpEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ED042390B28B0083970A /* HttpEngine.m */; };
+		8A86ED132390C2EB0083970A /* TVSSpeechRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ED122390C2EB0083970A /* TVSSpeechRecognizer.m */; };
+		8A86ED162390C30D0083970A /* TVSTextRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ED152390C30D0083970A /* TVSTextRecognizer.m */; };
+		8A86ED192390C5A70083970A /* TVSContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ED182390C5A70083970A /* TVSContext.m */; };
+		8A86ED1D2390CAF90083970A /* TextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ED1B2390CAF90083970A /* TextUtils.m */; };
+		8A86ED202390F8D90083970A /* TVSApiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ED1F2390F8D90083970A /* TVSApiUtils.m */; };
+		8A86ED26239149E10083970A /* AQRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ED22239149E10083970A /* AQRecorder.mm */; };
+		8A86ED27239149E10083970A /* AQPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A86ED24239149E10083970A /* AQPlayer.mm */; };
+		8A86ED2A239150AE0083970A /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A86ED29239150AD0083970A /* libspeex.a */; };
+		8A86ED2D239206510083970A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A86ED2C239206510083970A /* AudioToolbox.framework */; };
+		ADE6F55E712A4D2014BCA09E /* Pods_TVSApiDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE0A83DC034619A63E559FC /* Pods_TVSApiDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3ADF5A81FEA383BA2749A1A2 /* Pods-TVSApiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVSApiDemo.release.xcconfig"; path = "Target Support Files/Pods-TVSApiDemo/Pods-TVSApiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3AE0A83DC034619A63E559FC /* Pods_TVSApiDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVSApiDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A86ECE62390AEFA0083970A /* TVSApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVSApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A86ECE92390AEFA0083970A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A86ECEA2390AEFA0083970A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A86ECEF2390AEFA0083970A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A86ECF02390AEFA0083970A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A86ECF32390AEFA0083970A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A86ECF52390AEFB0083970A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A86ECF82390AEFB0083970A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A86ECFA2390AEFB0083970A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A86ECFB2390AEFB0083970A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A86ED032390B28B0083970A /* HttpEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpEngine.h; sourceTree = "<group>"; };
+		8A86ED042390B28B0083970A /* HttpEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpEngine.m; sourceTree = "<group>"; };
+		8A86ED072390BBCC0083970A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8A86ED112390C2EB0083970A /* TVSSpeechRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVSSpeechRecognizer.h; sourceTree = "<group>"; };
+		8A86ED122390C2EB0083970A /* TVSSpeechRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSSpeechRecognizer.m; sourceTree = "<group>"; };
+		8A86ED142390C30D0083970A /* TVSTextRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVSTextRecognizer.h; sourceTree = "<group>"; };
+		8A86ED152390C30D0083970A /* TVSTextRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSTextRecognizer.m; sourceTree = "<group>"; };
+		8A86ED172390C5A70083970A /* TVSContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVSContext.h; sourceTree = "<group>"; };
+		8A86ED182390C5A70083970A /* TVSContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSContext.m; sourceTree = "<group>"; };
+		8A86ED1B2390CAF90083970A /* TextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextUtils.m; sourceTree = "<group>"; };
+		8A86ED1C2390CAF90083970A /* TextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextUtils.h; sourceTree = "<group>"; };
+		8A86ED1E2390F8D90083970A /* TVSApiUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVSApiUtils.h; sourceTree = "<group>"; };
+		8A86ED1F2390F8D90083970A /* TVSApiUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSApiUtils.m; sourceTree = "<group>"; };
+		8A86ED22239149E10083970A /* AQRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AQRecorder.mm; sourceTree = "<group>"; };
+		8A86ED23239149E10083970A /* AQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQPlayer.h; sourceTree = "<group>"; };
+		8A86ED24239149E10083970A /* AQPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AQPlayer.mm; sourceTree = "<group>"; };
+		8A86ED25239149E10083970A /* AQRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQRecorder.h; sourceTree = "<group>"; };
+		8A86ED28239150870083970A /* TSpeex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSpeex.h; sourceTree = "<group>"; };
+		8A86ED29239150AD0083970A /* libspeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspeex.a; path = TVSApiDemo/library/libspeex.a; sourceTree = "<group>"; };
+		8A86ED2C239206510083970A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C8DCEDA12B1923DC86C69FD0 /* Pods-TVSApiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVSApiDemo.debug.xcconfig"; path = "Target Support Files/Pods-TVSApiDemo/Pods-TVSApiDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A86ECE32390AEFA0083970A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A86ED2D239206510083970A /* AudioToolbox.framework in Frameworks */,
+				8A86ED2A239150AE0083970A /* libspeex.a in Frameworks */,
+				ADE6F55E712A4D2014BCA09E /* Pods_TVSApiDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B95EA53D5014EBEE57BF07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A86ED2C239206510083970A /* AudioToolbox.framework */,
+				8A86ED29239150AD0083970A /* libspeex.a */,
+				3AE0A83DC034619A63E559FC /* Pods_TVSApiDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A86ECDD2390AEFA0083970A = {
+			isa = PBXGroup;
+			children = (
+				8A86ECE82390AEFA0083970A /* TVSApiDemo */,
+				8A86ECE72390AEFA0083970A /* Products */,
+				EFA24A10EA9388D5040D7FA9 /* Pods */,
+				01B95EA53D5014EBEE57BF07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A86ECE72390AEFA0083970A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A86ECE62390AEFA0083970A /* TVSApiDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A86ECE82390AEFA0083970A /* TVSApiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8A86ED28239150870083970A /* TSpeex.h */,
+				8A86ED21239149C60083970A /* Media */,
+				8A86ED1A2390CACB0083970A /* Utils */,
+				8A86ED0D2390C2780083970A /* Api */,
+				8A86ED062390BB8D0083970A /* Constant */,
+				8A86ED022390B1980083970A /* Http */,
+				8A86ECE92390AEFA0083970A /* AppDelegate.h */,
+				8A86ECEA2390AEFA0083970A /* AppDelegate.m */,
+				8A86ECEF2390AEFA0083970A /* ViewController.h */,
+				8A86ECF02390AEFA0083970A /* ViewController.m */,
+				8A86ECF22390AEFA0083970A /* Main.storyboard */,
+				8A86ECF52390AEFB0083970A /* Assets.xcassets */,
+				8A86ECF72390AEFB0083970A /* LaunchScreen.storyboard */,
+				8A86ECFA2390AEFB0083970A /* Info.plist */,
+				8A86ECFB2390AEFB0083970A /* main.m */,
+			);
+			path = TVSApiDemo;
+			sourceTree = "<group>";
+		};
+		8A86ED022390B1980083970A /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				8A86ED032390B28B0083970A /* HttpEngine.h */,
+				8A86ED042390B28B0083970A /* HttpEngine.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		8A86ED062390BB8D0083970A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				8A86ED072390BBCC0083970A /* Constants.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		8A86ED0D2390C2780083970A /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				8A86ED112390C2EB0083970A /* TVSSpeechRecognizer.h */,
+				8A86ED122390C2EB0083970A /* TVSSpeechRecognizer.m */,
+				8A86ED142390C30D0083970A /* TVSTextRecognizer.h */,
+				8A86ED152390C30D0083970A /* TVSTextRecognizer.m */,
+				8A86ED172390C5A70083970A /* TVSContext.h */,
+				8A86ED182390C5A70083970A /* TVSContext.m */,
+				8A86ED1E2390F8D90083970A /* TVSApiUtils.h */,
+				8A86ED1F2390F8D90083970A /* TVSApiUtils.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		8A86ED1A2390CACB0083970A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A86ED1C2390CAF90083970A /* TextUtils.h */,
+				8A86ED1B2390CAF90083970A /* TextUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A86ED21239149C60083970A /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				8A86ED23239149E10083970A /* AQPlayer.h */,
+				8A86ED24239149E10083970A /* AQPlayer.mm */,
+				8A86ED25239149E10083970A /* AQRecorder.h */,
+				8A86ED22239149E10083970A /* AQRecorder.mm */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		EFA24A10EA9388D5040D7FA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8DCEDA12B1923DC86C69FD0 /* Pods-TVSApiDemo.debug.xcconfig */,
+				3ADF5A81FEA383BA2749A1A2 /* Pods-TVSApiDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A86ECE52390AEFA0083970A /* TVSApiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A86ECFF2390AEFB0083970A /* Build configuration list for PBXNativeTarget "TVSApiDemo" */;
+			buildPhases = (
+				C2836B5CF2930A58B376E60B /* [CP] Check Pods Manifest.lock */,
+				8A86ECE22390AEFA0083970A /* Sources */,
+				8A86ECE32390AEFA0083970A /* Frameworks */,
+				8A86ECE42390AEFA0083970A /* Resources */,
+				CDF321672FE91335256E0A10 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVSApiDemo;
+			productName = TVSApiDemo;
+			productReference = 8A86ECE62390AEFA0083970A /* TVSApiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A86ECDE2390AEFA0083970A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Tencent;
+				TargetAttributes = {
+					8A86ECE52390AEFA0083970A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A86ECE12390AEFA0083970A /* Build configuration list for PBXProject "TVSApiDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A86ECDD2390AEFA0083970A;
+			productRefGroup = 8A86ECE72390AEFA0083970A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A86ECE52390AEFA0083970A /* TVSApiDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A86ECE42390AEFA0083970A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A86ECF92390AEFB0083970A /* LaunchScreen.storyboard in Resources */,
+				8A86ECF62390AEFB0083970A /* Assets.xcassets in Resources */,
+				8A86ECF42390AEFA0083970A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2836B5CF2930A58B376E60B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVSApiDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF321672FE91335256E0A10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVSApiDemo/Pods-TVSApiDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVSApiDemo/Pods-TVSApiDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TVSApiDemo/Pods-TVSApiDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A86ECE22390AEFA0083970A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A86ED26239149E10083970A /* AQRecorder.mm in Sources */,
+				8A86ED162390C30D0083970A /* TVSTextRecognizer.m in Sources */,
+				8A86ECF12390AEFA0083970A /* ViewController.m in Sources */,
+				8A86ED052390B28B0083970A /* HttpEngine.m in Sources */,
+				8A86ECEB2390AEFA0083970A /* AppDelegate.m in Sources */,
+				8A86ECFC2390AEFB0083970A /* main.m in Sources */,
+				8A86ED1D2390CAF90083970A /* TextUtils.m in Sources */,
+				8A86ED132390C2EB0083970A /* TVSSpeechRecognizer.m in Sources */,
+				8A86ED202390F8D90083970A /* TVSApiUtils.m in Sources */,
+				8A86ED27239149E10083970A /* AQPlayer.mm in Sources */,
+				8A86ED192390C5A70083970A /* TVSContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A86ECF22390AEFA0083970A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A86ECF32390AEFA0083970A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A86ECF72390AEFB0083970A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A86ECF82390AEFB0083970A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A86ECFD2390AEFB0083970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A86ECFE2390AEFB0083970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A86ED002390AEFB0083970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DCEDA12B1923DC86C69FD0 /* Pods-TVSApiDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H265AG466K;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TVSApiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVSApiDemo/library",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.yunxiaowei.tvsapidemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A86ED012390AEFB0083970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADF5A81FEA383BA2749A1A2 /* Pods-TVSApiDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H265AG466K;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TVSApiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVSApiDemo/library",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.yunxiaowei.tvsapidemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A86ECE12390AEFA0083970A /* Build configuration list for PBXProject "TVSApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A86ECFD2390AEFB0083970A /* Debug */,
+				8A86ECFE2390AEFB0083970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A86ECFF2390AEFB0083970A /* Build configuration list for PBXNativeTarget "TVSApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A86ED002390AEFB0083970A /* Debug */,
+				8A86ED012390AEFB0083970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A86ECDE2390AEFA0083970A /* Project object */;
+}
