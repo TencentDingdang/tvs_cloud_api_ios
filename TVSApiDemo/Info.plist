@@ -28,7 +28,7 @@
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
-		<key>UISceneConfigurations</key>
+		<!-- <key>UISceneConfigurations</key>
 		<dict>
 			<key>UIWindowSceneSessionRoleApplication</key>
 			<array>
@@ -41,7 +41,7 @@
 					<string>Main</string>
 				</dict>
 			</array>
-		</dict>
+		</dict> -->
 	</dict>
 	<key>UIFileSharingEnabled</key>
 	<true/>
