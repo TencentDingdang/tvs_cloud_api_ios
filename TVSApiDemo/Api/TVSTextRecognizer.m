@@ -91,7 +91,7 @@
 //    "payload": {
 //        "isEnable": true
 //    }
-    NSDictionary *showStateContext = [TVSContext createContext:@"TvsUserInterface" name:@"ShowState" payload:@{@"isEnable":[NSNumber numberWithBool:YES]}];
+    NSDictionary *showStateContext = [TVSContext createContext:@"TvsUserInterface" name:@"ShowState" payload:@{@"isEnabled":[NSNumber numberWithBool:YES]}];
     [contextList addObject:showStateContext];
     
     NSDictionary *testCustomData = [NSDictionary dictionaryWithObjectsAndKeys:@"spotLabel", @"type", @"Yunnan", @"value", nil];
